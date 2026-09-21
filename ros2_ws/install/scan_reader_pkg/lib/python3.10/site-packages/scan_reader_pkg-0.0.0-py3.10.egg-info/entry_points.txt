@@ -1,0 +1,4 @@
+[console_scripts]
+obstacle_avoidance = scan_reader_pkg.obstacle_avoidance:main
+scan_reader = scan_reader_pkg.scan_reader:main
+

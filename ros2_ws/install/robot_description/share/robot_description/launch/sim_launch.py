@@ -1,0 +1,1 @@
+/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/src/robot_description/launch/sim_launch.py

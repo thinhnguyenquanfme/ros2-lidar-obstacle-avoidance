@@ -1,0 +1,23 @@
+[2.917s] Invoking command in '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/build/scan_reader_pkg': PYTHONPATH=/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/build/scan_reader_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/scan_reader_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/build/scan_reader_pkg/build --no-deps symlink_data
+[3.536s] running develop
+[3.901s] running egg_info
+[3.901s] creating scan_reader_pkg.egg-info
+[3.903s] writing scan_reader_pkg.egg-info/PKG-INFO
+[3.904s] writing dependency_links to scan_reader_pkg.egg-info/dependency_links.txt
+[3.904s] writing entry points to scan_reader_pkg.egg-info/entry_points.txt
+[3.905s] writing requirements to scan_reader_pkg.egg-info/requires.txt
+[3.906s] writing top-level names to scan_reader_pkg.egg-info/top_level.txt
+[3.906s] writing manifest file 'scan_reader_pkg.egg-info/SOURCES.txt'
+[3.910s] reading manifest file 'scan_reader_pkg.egg-info/SOURCES.txt'
+[3.911s] writing manifest file 'scan_reader_pkg.egg-info/SOURCES.txt'
+[3.914s] running build_ext
+[3.915s] Creating /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/scan_reader_pkg/lib/python3.10/site-packages/scan-reader-pkg.egg-link (link to .)
+[3.917s] 
+[3.918s] Installed /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/build/scan_reader_pkg
+[3.918s] running symlink_data
+[3.918s] creating /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/scan_reader_pkg/share/ament_index
+[3.919s] creating /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/scan_reader_pkg/share/ament_index/resource_index
+[3.921s] creating /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/scan_reader_pkg/share/ament_index/resource_index/packages
+[3.923s] symbolically linking /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/build/scan_reader_pkg/resource/scan_reader_pkg -> /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/scan_reader_pkg/share/ament_index/resource_index/packages
+[3.925s] symbolically linking /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/build/scan_reader_pkg/package.xml -> /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/scan_reader_pkg/share/scan_reader_pkg
+[3.993s] Invoked command in '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/build/scan_reader_pkg' returned '0': PYTHONPATH=/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/build/scan_reader_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/scan_reader_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/build/scan_reader_pkg/build --no-deps symlink_data

@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating scan_reader_pkg.egg-info
+writing scan_reader_pkg.egg-info/PKG-INFO
+writing dependency_links to scan_reader_pkg.egg-info/dependency_links.txt
+writing entry points to scan_reader_pkg.egg-info/entry_points.txt
+writing requirements to scan_reader_pkg.egg-info/requires.txt
+writing top-level names to scan_reader_pkg.egg-info/top_level.txt
+writing manifest file 'scan_reader_pkg.egg-info/SOURCES.txt'
+reading manifest file 'scan_reader_pkg.egg-info/SOURCES.txt'
+writing manifest file 'scan_reader_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/scan_reader_pkg/lib/python3.10/site-packages/scan-reader-pkg.egg-link (link to .)
+
+Installed /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/build/scan_reader_pkg
+running symlink_data
+creating /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/scan_reader_pkg/share/ament_index
+creating /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/scan_reader_pkg/share/ament_index/resource_index
+creating /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/scan_reader_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/build/scan_reader_pkg/resource/scan_reader_pkg -> /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/scan_reader_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/build/scan_reader_pkg/package.xml -> /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/scan_reader_pkg/share/scan_reader_pkg

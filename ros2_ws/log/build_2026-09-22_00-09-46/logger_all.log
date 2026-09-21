@@ -1,0 +1,191 @@
+[0.771s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.772s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7820da641720>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7820da640970>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7820da640970>>, mixin_verb=('build',))
+[1.690s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.690s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.690s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.691s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.691s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.691s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.691s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws'
+[1.691s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.692s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.692s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.692s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.692s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.721s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.721s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.721s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.722s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.722s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.722s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.722s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.722s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.723s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.723s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.723s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.724s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.724s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.724s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.724s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.724s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.725s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.725s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.725s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.725s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.725s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.725s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.726s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.726s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.726s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.726s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.726s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.726s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['ignore', 'ignore_ament_install']
+[1.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ignore'
+[1.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ignore_ament_install'
+[1.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['colcon_pkg']
+[1.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'colcon_pkg'
+[1.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['colcon_meta']
+[1.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'colcon_meta'
+[1.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['ros']
+[1.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ros'
+[1.737s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_description' with type 'ros.ament_cmake' and name 'robot_description'
+[1.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/scan_reader_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/scan_reader_pkg) by extension 'ignore'
+[1.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/scan_reader_pkg) by extension 'ignore_ament_install'
+[1.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/scan_reader_pkg) by extensions ['colcon_pkg']
+[1.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/scan_reader_pkg) by extension 'colcon_pkg'
+[1.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/scan_reader_pkg) by extensions ['colcon_meta']
+[1.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/scan_reader_pkg) by extension 'colcon_meta'
+[1.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/scan_reader_pkg) by extensions ['ros']
+[1.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/scan_reader_pkg) by extension 'ros'
+[1.740s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scan_reader_pkg' with type 'ros.ament_python' and name 'scan_reader_pkg'
+[1.741s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.741s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.741s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.741s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.741s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.820s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.820s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.831s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 288 installed packages in /opt/ros/humble
+[1.834s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.933s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_args' from command line to 'None'
+[1.934s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target' from command line to 'None'
+[1.934s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.934s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.934s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.934s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.934s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.934s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.934s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.934s] DEBUG:colcon.colcon_core.verb:Building package 'robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/build/robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description', 'merge_install': False, 'path': '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/src/robot_description', 'symlink_install': False, 'test_result_base': None}
+[1.935s] Level 5:colcon.colcon_core.verb:set package 'scan_reader_pkg' build argument 'cmake_args' from command line to 'None'
+[1.935s] Level 5:colcon.colcon_core.verb:set package 'scan_reader_pkg' build argument 'cmake_target' from command line to 'None'
+[1.935s] Level 5:colcon.colcon_core.verb:set package 'scan_reader_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.935s] Level 5:colcon.colcon_core.verb:set package 'scan_reader_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.935s] Level 5:colcon.colcon_core.verb:set package 'scan_reader_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.935s] Level 5:colcon.colcon_core.verb:set package 'scan_reader_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.936s] Level 5:colcon.colcon_core.verb:set package 'scan_reader_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.936s] Level 5:colcon.colcon_core.verb:set package 'scan_reader_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.936s] Level 5:colcon.colcon_core.verb:set package 'scan_reader_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.936s] DEBUG:colcon.colcon_core.verb:Building package 'scan_reader_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/build/scan_reader_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/scan_reader_pkg', 'merge_install': False, 'path': '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/src/scan_reader_pkg', 'symlink_install': False, 'test_result_base': None}
+[1.936s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.939s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.940s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/src/robot_description' with build type 'ament_cmake'
+[1.940s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/src/robot_description'
+[1.954s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.955s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.955s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.965s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/src/scan_reader_pkg' with build type 'ament_python'
+[1.965s] Level 1:colcon.colcon_core.shell:create_environment_hook('scan_reader_pkg', 'ament_prefix_path')
+[1.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/scan_reader_pkg/share/scan_reader_pkg/hook/ament_prefix_path.ps1'
+[1.969s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/scan_reader_pkg/share/scan_reader_pkg/hook/ament_prefix_path.dsv'
+[1.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/scan_reader_pkg/share/scan_reader_pkg/hook/ament_prefix_path.sh'
+[1.975s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.975s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.006s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/build/robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/build/robot_description -- -j12 -l12
+[2.627s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/src/scan_reader_pkg'
+[2.627s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.628s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.638s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/build/robot_description -- -j12 -l12
+[2.664s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/build/robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/build/robot_description
+[2.720s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[2.722s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/build/robot_description
+[2.733s] Level 1:colcon.colcon_core.environment:checking '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description' for CMake module files
+[2.734s] Level 1:colcon.colcon_core.environment:checking '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description' for CMake config files
+[2.735s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'cmake_prefix_path')
+[2.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.ps1'
+[2.737s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.dsv'
+[2.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.sh'
+[2.740s] Level 1:colcon.colcon_core.environment:checking '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/bin'
+[2.740s] Level 1:colcon.colcon_core.environment:checking '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/lib/pkgconfig/robot_description.pc'
+[2.740s] Level 1:colcon.colcon_core.environment:checking '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/lib/python3.10/site-packages'
+[2.741s] Level 1:colcon.colcon_core.environment:checking '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/bin'
+[2.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/robot_description/package.ps1'
+[2.747s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/robot_description/package.dsv'
+[2.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/robot_description/package.sh'
+[2.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/robot_description/package.bash'
+[2.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/robot_description/package.zsh'
+[2.757s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/colcon-core/packages/robot_description)
+[2.759s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[2.760s] Level 1:colcon.colcon_core.environment:checking '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description' for CMake module files
+[2.761s] Level 1:colcon.colcon_core.environment:checking '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description' for CMake config files
+[2.763s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'cmake_prefix_path')
+[2.763s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.ps1'
+[2.765s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.dsv'
+[2.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.sh'
+[2.768s] Level 1:colcon.colcon_core.environment:checking '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/bin'
+[2.768s] Level 1:colcon.colcon_core.environment:checking '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/lib/pkgconfig/robot_description.pc'
+[2.769s] Level 1:colcon.colcon_core.environment:checking '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/lib/python3.10/site-packages'
+[2.769s] Level 1:colcon.colcon_core.environment:checking '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/bin'
+[2.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/robot_description/package.ps1'
+[2.772s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/robot_description/package.dsv'
+[2.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/robot_description/package.sh'
+[2.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/robot_description/package.bash'
+[2.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/robot_description/package.zsh'
+[2.778s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/colcon-core/packages/robot_description)
+[3.693s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: clean, alias, register, install_egg_info, install_data, sdist, install_headers, setopt, symlink_data, build_clib, bdist_dumb, rotate, upload, install, test, extract_messages, install_lib, update_catalog, install_scripts, check, egg_info, upload_docs, build, build_scripts, bdist_rpm, bdist, bdist_egg, build_ext, saveopts, compile_catalog, dist_info, develop, init_catalog, build_py, easy_install
+[3.701s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/src/scan_reader_pkg': PYTHONPATH=/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/build/scan_reader_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/scan_reader_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/scan_reader_pkg build --build-base /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/build/scan_reader_pkg/build install --record /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/build/scan_reader_pkg/install.log --install-scripts $base/lib/scan_reader_pkg --single-version-externally-managed install_data
+[4.364s] Level 1:colcon.colcon_core.environment:checking '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/scan_reader_pkg' for CMake module files
+[4.366s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/src/scan_reader_pkg' returned '0': PYTHONPATH=/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/build/scan_reader_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/scan_reader_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/scan_reader_pkg build --build-base /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/build/scan_reader_pkg/build install --record /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/build/scan_reader_pkg/install.log --install-scripts $base/lib/scan_reader_pkg --single-version-externally-managed install_data
+[4.367s] Level 1:colcon.colcon_core.environment:checking '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/scan_reader_pkg' for CMake config files
+[4.368s] Level 1:colcon.colcon_core.environment:checking '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/scan_reader_pkg/lib'
+[4.369s] Level 1:colcon.colcon_core.environment:checking '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/scan_reader_pkg/bin'
+[4.369s] Level 1:colcon.colcon_core.environment:checking '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/scan_reader_pkg/lib/pkgconfig/scan_reader_pkg.pc'
+[4.369s] Level 1:colcon.colcon_core.environment:checking '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/scan_reader_pkg/lib/python3.10/site-packages'
+[4.370s] Level 1:colcon.colcon_core.shell:create_environment_hook('scan_reader_pkg', 'pythonpath')
+[4.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/scan_reader_pkg/share/scan_reader_pkg/hook/pythonpath.ps1'
+[4.372s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/scan_reader_pkg/share/scan_reader_pkg/hook/pythonpath.dsv'
+[4.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/scan_reader_pkg/share/scan_reader_pkg/hook/pythonpath.sh'
+[4.375s] Level 1:colcon.colcon_core.environment:checking '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/scan_reader_pkg/bin'
+[4.375s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scan_reader_pkg)
+[4.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/scan_reader_pkg/share/scan_reader_pkg/package.ps1'
+[4.377s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/scan_reader_pkg/share/scan_reader_pkg/package.dsv'
+[4.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/scan_reader_pkg/share/scan_reader_pkg/package.sh'
+[4.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/scan_reader_pkg/share/scan_reader_pkg/package.bash'
+[4.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/scan_reader_pkg/share/scan_reader_pkg/package.zsh'
+[4.383s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/scan_reader_pkg/share/colcon-core/packages/scan_reader_pkg)
+[4.384s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.385s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.385s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.385s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.477s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[4.477s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.477s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.478s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.478s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[4.479s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.479s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/local_setup.ps1'
+[4.482s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/_local_setup_util_ps1.py'
+[4.486s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/setup.ps1'
+[4.489s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/local_setup.sh'
+[4.492s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/_local_setup_util_sh.py'
+[4.493s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/setup.sh'
+[4.496s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/local_setup.bash'
+[4.498s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/setup.bash'
+[4.500s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/local_setup.zsh'
+[4.502s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/setup.zsh'

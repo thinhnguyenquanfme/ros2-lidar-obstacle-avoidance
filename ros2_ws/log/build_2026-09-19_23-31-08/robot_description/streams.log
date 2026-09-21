@@ -1,0 +1,45 @@
+[0.043s] Invoking command in '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/build/robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/src/robot_description -DCMAKE_INSTALL_PREFIX=/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description
+[0.504s] -- The C compiler identification is GNU 11.4.0
+[1.537s] -- The CXX compiler identification is GNU 11.4.0
+[2.259s] -- Detecting C compiler ABI info
+[2.582s] -- Detecting C compiler ABI info - done
+[2.598s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.599s] -- Detecting C compile features
+[2.601s] -- Detecting C compile features - done
+[2.611s] -- Detecting CXX compiler ABI info
+[2.970s] -- Detecting CXX compiler ABI info - done
+[2.987s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.987s] -- Detecting CXX compile features
+[2.988s] -- Detecting CXX compile features - done
+[3.010s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.353s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.596s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.795s] -- Added test 'lint_cmake' to check CMake code style
+[3.802s] -- Added test 'xmllint' to check XML markup files
+[3.809s] -- Configuring done
+[3.832s] -- Generating done
+[3.840s] -- Build files have been written to: /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/build/robot_description
+[3.851s] Invoked command in '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/src/robot_description -DCMAKE_INSTALL_PREFIX=/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description
+[3.858s] Invoking command in '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/build/robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/build/robot_description -- -j12 -l12
+[3.938s] Invoked command in '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/build/robot_description -- -j12 -l12
+[3.961s] Invoking command in '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/build/robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/build/robot_description
+[3.976s] -- Install configuration: ""
+[3.976s] -- Installing: /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/robot_description/worlds
+[3.981s] -- Installing: /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/robot_description/worlds/car_worlds.sdf
+[3.982s] -- Installing: /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/robot_description/models
+[3.986s] -- Installing: /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+[3.988s] -- Installing: /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+[3.991s] -- Installing: /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+[3.991s] -- Installing: /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+[3.992s] -- Installing: /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/robot_description/environment/path.sh
+[3.992s] -- Installing: /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/robot_description/environment/path.dsv
+[3.993s] -- Installing: /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/robot_description/local_setup.bash
+[3.994s] -- Installing: /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/robot_description/local_setup.sh
+[3.995s] -- Installing: /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/robot_description/local_setup.zsh
+[3.996s] -- Installing: /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/robot_description/local_setup.dsv
+[3.997s] -- Installing: /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/robot_description/package.dsv
+[3.998s] -- Installing: /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/ament_index/resource_index/packages/robot_description
+[4.001s] -- Installing: /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+[4.002s] -- Installing: /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+[4.002s] -- Installing: /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/robot_description/package.xml
+[4.009s] Invoked command in '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/build/robot_description

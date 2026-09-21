@@ -1,0 +1,17 @@
+/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/robot_description/worlds/car_worlds.sdf
+/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/robot_description/launch/sim_launch.py
+/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/robot_description/environment/path.sh
+/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/robot_description/environment/path.dsv
+/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/robot_description/local_setup.bash
+/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/robot_description/local_setup.sh
+/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/robot_description/local_setup.zsh
+/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/robot_description/local_setup.dsv
+/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/robot_description/package.dsv
+/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/ament_index/resource_index/packages/robot_description
+/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/robot_description/share/robot_description/package.xml

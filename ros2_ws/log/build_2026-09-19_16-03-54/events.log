@@ -1,0 +1,68 @@
+[0.000000] (-) TimerEvent: {}
+[0.002986] (scan_reader_pkg) JobQueued: {'identifier': 'scan_reader_pkg', 'dependencies': OrderedDict()}
+[0.003791] (scan_reader_pkg) JobStarted: {'identifier': 'scan_reader_pkg'}
+[0.098084] (-) TimerEvent: {}
+[0.198593] (-) TimerEvent: {}
+[0.299523] (-) TimerEvent: {}
+[0.400131] (-) TimerEvent: {}
+[0.500817] (-) TimerEvent: {}
+[0.601540] (-) TimerEvent: {}
+[0.702437] (-) TimerEvent: {}
+[0.803107] (-) TimerEvent: {}
+[0.903956] (-) TimerEvent: {}
+[1.005023] (-) TimerEvent: {}
+[1.105645] (-) TimerEvent: {}
+[1.206274] (-) TimerEvent: {}
+[1.306865] (-) TimerEvent: {}
+[1.407521] (-) TimerEvent: {}
+[1.508040] (-) TimerEvent: {}
+[1.608751] (-) TimerEvent: {}
+[1.709322] (-) TimerEvent: {}
+[1.809990] (-) TimerEvent: {}
+[1.910611] (-) TimerEvent: {}
+[2.011529] (-) TimerEvent: {}
+[2.112380] (-) TimerEvent: {}
+[2.213160] (-) TimerEvent: {}
+[2.313705] (-) TimerEvent: {}
+[2.414499] (-) TimerEvent: {}
+[2.515250] (-) TimerEvent: {}
+[2.615845] (-) TimerEvent: {}
+[2.716562] (-) TimerEvent: {}
+[2.817196] (-) TimerEvent: {}
+[2.910138] (scan_reader_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/build/scan_reader_pkg/build', '--no-deps', 'symlink_data'], 'cwd': '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/build/scan_reader_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'thinhnguyen', 'SSH_AGENT_PID': '525', 'GIT_ASKPASS': '/home/thinhnguyen/.vscode-server/bin/7debcd0e2acdea1c52de81bf9ee1620444407dda/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/thinhnguyen', 'OLDPWD': '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.138.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-e7ded56b-238a-4bca-bab1-b2313ba0ccdd.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/thinhnguyen/.vscode-server/bin/7debcd0e2acdea1c52de81bf9ee1620444407dda/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/thinhnguyen/.vscode-server/bin/7debcd0e2acdea1c52de81bf9ee1620444407dda/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'thinhnguyen', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/666_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/thinhnguyen/.local/bin:/home/thinhnguyen/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/thinhnguyen/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/thinhnguyen/.vscode-server/bin/7debcd0e2acdea1c52de81bf9ee1620444407dda/bin/remote-cli:/home/thinhnguyen/.local/bin:/home/thinhnguyen/.local/bin:/opt/ros/humble/bin:/home/thinhnguyen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin:/mnt/c/Program Files/Basler/pylon 8/Runtime/x64/:/mnt/c/Program Files/Basler/pylon 8/Runtime/Win32/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/Common Files/Pleora/eBUS SDK:/mnt/c/Program Files/Common Files/Pleora/eBUS SDK:/mnt/c/Program Files/Cloudflare/Cloudflare WARP/:/mnt/c/Users/quant/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/quant/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/quant/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/quant/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/quant/AppData/Local/Python/bin:/mnt/c/Users/quant/.dotnet/tools:/mnt/c/Users/quant/AppData/Local/PowerToys/DSCModules/:/mnt/c/Users/quant/AppData/Local/Programs/Antigravity IDE/bin:/mnt/c/Users/quant/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-0af6169a84.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/ssh-XXXXXX0s39Qd/agent.524', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/build/scan_reader_pkg', 'COPILOT_DEBUG_NONCE': '6488aae0c1d625ad08f57c2e879b8186', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/build/scan_reader_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/scan_reader_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}, 'shell': False}
+[2.923974] (-) TimerEvent: {}
+[3.025983] (-) TimerEvent: {}
+[3.126561] (-) TimerEvent: {}
+[3.227149] (-) TimerEvent: {}
+[3.327676] (-) TimerEvent: {}
+[3.428148] (-) TimerEvent: {}
+[3.528752] (-) TimerEvent: {}
+[3.540078] (scan_reader_pkg) StdoutLine: {'line': b'running develop\n'}
+[3.628918] (-) TimerEvent: {}
+[3.729504] (-) TimerEvent: {}
+[3.830060] (-) TimerEvent: {}
+[3.904943] (scan_reader_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[3.905601] (scan_reader_pkg) StdoutLine: {'line': b'creating scan_reader_pkg.egg-info\n'}
+[3.906947] (scan_reader_pkg) StdoutLine: {'line': b'writing scan_reader_pkg.egg-info/PKG-INFO\n'}
+[3.907860] (scan_reader_pkg) StdoutLine: {'line': b'writing dependency_links to scan_reader_pkg.egg-info/dependency_links.txt\n'}
+[3.908569] (scan_reader_pkg) StdoutLine: {'line': b'writing entry points to scan_reader_pkg.egg-info/entry_points.txt\n'}
+[3.909263] (scan_reader_pkg) StdoutLine: {'line': b'writing requirements to scan_reader_pkg.egg-info/requires.txt\n'}
+[3.909836] (scan_reader_pkg) StdoutLine: {'line': b'writing top-level names to scan_reader_pkg.egg-info/top_level.txt\n'}
+[3.910439] (scan_reader_pkg) StdoutLine: {'line': b"writing manifest file 'scan_reader_pkg.egg-info/SOURCES.txt'\n"}
+[3.913991] (scan_reader_pkg) StdoutLine: {'line': b"reading manifest file 'scan_reader_pkg.egg-info/SOURCES.txt'\n"}
+[3.915247] (scan_reader_pkg) StdoutLine: {'line': b"writing manifest file 'scan_reader_pkg.egg-info/SOURCES.txt'\n"}
+[3.918220] (scan_reader_pkg) StdoutLine: {'line': b'running build_ext\n'}
+[3.918850] (scan_reader_pkg) StdoutLine: {'line': b'Creating /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/scan_reader_pkg/lib/python3.10/site-packages/scan-reader-pkg.egg-link (link to .)\n'}
+[3.921016] (scan_reader_pkg) StdoutLine: {'line': b'\n'}
+[3.921737] (scan_reader_pkg) StdoutLine: {'line': b'Installed /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/build/scan_reader_pkg\n'}
+[3.921993] (scan_reader_pkg) StdoutLine: {'line': b'running symlink_data\n'}
+[3.922139] (scan_reader_pkg) StdoutLine: {'line': b'creating /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/scan_reader_pkg/share/ament_index\n'}
+[3.923331] (scan_reader_pkg) StdoutLine: {'line': b'creating /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/scan_reader_pkg/share/ament_index/resource_index\n'}
+[3.925008] (scan_reader_pkg) StdoutLine: {'line': b'creating /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/scan_reader_pkg/share/ament_index/resource_index/packages\n'}
+[3.926718] (scan_reader_pkg) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/build/scan_reader_pkg/resource/scan_reader_pkg -> /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/scan_reader_pkg/share/ament_index/resource_index/packages\n'}
+[3.928687] (scan_reader_pkg) StdoutLine: {'line': b'symbolically linking /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/build/scan_reader_pkg/package.xml -> /home/thinhnguyen/ros2-lidar-obstacle-avoidance/ros2_ws/install/scan_reader_pkg/share/scan_reader_pkg\n'}
+[3.930188] (-) TimerEvent: {}
+[3.996532] (scan_reader_pkg) CommandEnded: {'returncode': 0}
+[4.030486] (-) TimerEvent: {}
+[4.045840] (scan_reader_pkg) JobEnded: {'identifier': 'scan_reader_pkg', 'rc': 0}
+[4.049211] (-) EventReactorShutdown: {}
